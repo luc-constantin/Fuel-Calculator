@@ -70,11 +70,11 @@ h6 {
 }
 
 .scroll-to-top:focus, .scroll-to-top:hover {
-  color: white;
+  color: yellow;
 }
 
 .scroll-to-top:hover {
-  background: #343a40;
+  background: #1d809f;
 }
 
 .scroll-to-top i {
