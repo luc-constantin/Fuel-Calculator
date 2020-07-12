@@ -64,8 +64,8 @@ h6 {
   width: 50px;
   height: 50px;
   text-align: center;
-  color: #ecb807;
-  background: #007bff;
+  color: #ecb807!important;
+  background: #007bff!important;
   line-height: 45px;
 }
 
