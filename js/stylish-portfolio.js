@@ -61,4 +61,4 @@ var onMapClickHandler = function(event) {
   that.on('mouseleave', onMapMouseleaveHandler);
 }
 // Enable map zooming with mouse scroll when the user clicks the map
-$('.map').on('click', onMapClickHandler)
+$('.map').on('click', onMapClickHandler);
