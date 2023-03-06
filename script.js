@@ -10,6 +10,7 @@ form.addEventListener('submit', function(event) {
 });
 
 function CalculateNew() {
+  //uncomment the lines: 14, 15, 16, 17, 19, 20 to display a message when the NEW SUMS button is clicked
     // var msg;
     // msg= " Recalculate?";
     // var agree=confirm(msg);
