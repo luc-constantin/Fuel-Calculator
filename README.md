@@ -1,3 +1,23 @@
-# luc-portfolio
-This is my portfolio at the date, created and inspired by a simple Bootstrap theme
+# Gas Price Consumption Calculator
+___
+## You can use the App to:
+* Know the exact amount of gas consumption.
+  * according to distance
+  * according to price per liter
+  * according to fuel consumption (in liters per 100 km)
+  ###### As it is at the early version, it uses only the Kilometers.
+## Why do you need this App:
+* Helps you to estimate the fuel cost for your travel plans.
+* Allows you to input your travel distance, fuel efficiency, and fuel price to get an accurate estimate.
+* Provides a breakdown of the cost per mile, making it easier to plan and budget for your trip.
+* Helps you to compare different travel options based on fuel cost.
 
+
+
+## Technologies Used:
+### HTML, CSS, and Vanilla JavaScript.
+This app was built using the latest web development technologies: 
+* HTML for the markup, 
+* CSS for the styling, 
+* JavaScript for the functionality. 
+#### The app is currently on version 1.0.0 and is open source, so feel free to contribute to its development or use it for your own projects.
