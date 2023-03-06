@@ -14,7 +14,7 @@ ___
 * Provides a breakdown of the cost per mile, making it easier to plan and budget for your trip.
 * Helps you to compare different travel options based on fuel cost.
 
-You can calculate a new Trip Consumption [HERE](https://luc-constantin.github.io/Gas-Consumption/)
+ You can calculate a new Trip Consumption [HERE](https://luc-constantin.github.io/Gas-Consumption/)
 
 ## Technologies Used:
 ### HTML, CSS, and Vanilla JavaScript.
