@@ -5,48 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Gas Price Consumption Calculator</title>
+    <title>Fuel Price Consumption Calculator</title>
   </head>
 
- <body>
-  <h1 id="title">Gas Price Consumption Calculator
-  </h1>
+   <body>
+    
+    <h1 id="title"> Fuel Consumption Calculator</h1>
+
+    <form>
+    <label for="distance">Distance (km):</label>
+    <input type="number" id="distance" required>
   
-  <h3 id="title">  <br>
-  </h3>
-
-  <form id="combustible-form">
-	<div>
-	  <label for="distance" id="label_1">Distance (in kilometers):</label>
-	  <input type="number" id="distance" name="distance" step="0.01" min="0" required>
-	</div>
-	
-	<div>
-	  <label for="price" id="label_2">Price per liter:</label>
-	  <input type="number" id="price" name="price" step="0.01" min="0" required>
-	</div>
-	
-	<div>
-	  <label for="consumption" id="label_3">Fuel consumption (in liters per 100 km):</label>
-	  <input type="number" id="consumption" name="consumption" step="0.01" min="0" required>
-	</div>
-	
-	<div>
-    <button type="submit" value="Calculate">Calculate</button>   
-	</div>
-  </form>
-
-  <div id="result"> 
+    <label for="price">Price per liter (€):</label>
+    <input type="number" id="price" required>
+  
+    <label for="consumption">Fuel consumption (liters/100km):</label>
+    <input type="number" id="consumption" required>
+  <div>
+    <button id="calculate" disabled>Calculate</button>
   </div>
-  <div id="reload">
-    <button id="recalculateBtn" onclick="CalculateNew()">Reset</button>
-  </div>  
-
-
+    </form>
+   
+    <div id="result"></div>
+    <button id="reset" style="display:none;">Reset</button>
   <script src="script.js"></script>
- </body>
-</html> 
-
-    <script src="script.js"></script>
+	 
    </body>
-  </html>
+ </html>
