@@ -1,129 +1,72 @@
-  
-   #combustible-form, #title {
-    width: fit-content;
-    margin-right: auto;
-    margin-left: auto;
+  background-color: #f1f1f1;
+  justify-content: center;
+  height: 50vh;
+  margin:15px;
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+	}
+
+	#title {
+    padding-bottom: 10px;;
   }
 
-  #label_1 {
-    display: inline-block;
-    width: 95%;
-    margin-top: 15px;
-    margin-bottom: 5px;
-    font-size: 18px;
-  }
-  
-  #label_2 {
-    display: inline-block;
-    width: 95%;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    font-size: 18px;
-  }
-  
-  #label_3 {
-    display: inline-block;
-    width: 95%;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    font-size: 18px;
-  }
-  
-  input[type="number"] {
-    width: 95%;
-    padding: 5px;
+	input{
+	  display: block;
+	  margin-bottom: 30px;
+	  width: 100%;
+	  font-size: 18px;
+	  padding: 8px;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 10px;
-    font-size: 16px;
-  }
-
-  button {
-    display: inline-block;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    padding-left: 40px;
-    margin-top: 40px;
-    cursor: pointer;
-    width: 99%;
-    font-size: 18px;
-  }
-
-  #reload {
-    width: fit-content;
-    margin-right: auto;
-    margin-left: auto;
     
-  }
-  #recalculateBtn {
-    display: inline-block;
-    color: #000000;
-    border: none;
-    border-radius: 4px;
-    font-size: 18px;
-    font-weight:600;
-    background-color: #fba972;
-    margin-right: auto;
-    margin-left: auto;
-    width: 240px;
-  }
-
-  #recalculateBtn:hover {
-    margin-left: 2px;
-    background-color: #ff8a3c;
-  }
-
-
-#result {
-    font-size: 22px;
-    padding: 40px 100px 0 100px
-} 
-
-
-#combustible-form, #title {
-    width: fit-content;
-    margin-right: auto;
-    margin-left: auto;
-  }
-#label_1, #label_2, #label_3 {
-    display: inline-block;
-    width: 95%;
-    margin-top: 15px;
-    margin-bottom: 5px;
-    font-size: 18px;
-  }
-  
-  input[type="number"] {
-    width: 95%;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 10px;
-    font-size: 16px;
-  }
-  
-  button {
-    display: inline-block;
-    background-color: #6fcb7d;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    padding: 10px;
-    margin-top: 40px;
-    cursor: pointer;
-    width: 99%;
-    font-size: 18px;
-  }
-
-  button:hover {
-    background-color: #61b16d;
-    margin-left: 2px;
-  }
+	}
+	
+	
+	label {
+	  border-radius: 4px;  
+	  display: block;
+	  margin-bottom: 5px;
+	}
+	
+	#distance, #price, #consumption {
+		margin-bottom: 30px;
+	}
+	
+	button {
+	  margin-top: 10px;
+	  background-color: rgb(246, 185, 154);
+	  color: #484848;
+	  border: none;
+	  padding: 10px;
+	  cursor: pointer;
+    border-radius: 4px; 
+	}
+	
+	button:disabled {
+	  background-color:#eee6ff;
+	  cursor: default;
+	  color:#484848;
+    border-radius: 4px; 
+	}
+	
+	#calculate {
+	  margin-top: 10px;
+	  width: 100%;
+	  border-radius:4px;
+	  font-size: 18px;
+    border-radius: 4px; 
+    
+	}
+	
+	#reset {
+	  width: 100%;
+	  border-radius:4px;
+	  font-size: 18px;
+	}
 
   #result {
-    font-size: 22px;
-    width: fit-content;
-    margin-right: auto;
-    margin-left: auto;
-  } 
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color:rgb(2, 3, 8)
+  }
