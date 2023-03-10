@@ -1,34 +1,34 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Fuel Price Consumption Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title> Consumption  Plus</title>
   </head>
+  <!-- crated with passion for coding by Luc <<https://accolades.dev>> -->
 
-   <body>
-    
-    <h1 id="title"> Fuel Consumption Calculator</h1>
+<body>
+  <div id="container">  </div>
+  <h1>Consumption Calculator </h1>
+  <form>
+	<label for="distance">Distance (km):</label>
+	<input type="number" id="distance" required>
 
-    <form>
-    <label for="distance">Distance (km):</label>
-    <input type="number" id="distance" required>
-  
-    <label for="price">Price per liter (€):</label>
-    <input type="number" id="price" required>
-  
-    <label for="consumption">Fuel consumption (liters/100km):</label>
-    <input type="number" id="consumption" required>
-  <div>
-    <button id="calculate" disabled>Calculate</button>
-  </div>
-    </form>
-   
-    <div id="result"></div>
-    <button id="reset" style="display:none;">Reset</button>
+	<label for="price">Price per liter (€):</label>
+	<input type="number" id="price" required>
+
+	<label for="consumption">Fuel consumption (liters/100km):</label>
+	<input type="number" id="consumption" required>
+<div>
+	<button id="calculate" disabled>Calculate</button>
+</div>
+  </form>
+ 
+  <div id="result"></div>
+  <button id="reset" style="display:none;">Reset</button>
+
   <script src="script.js"></script>
-	 
-   </body>
- </html>
+</body>
+</html>
