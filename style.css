@@ -1,72 +1,71 @@
-  background-color: #f1f1f1;
-  justify-content: center;
-  height: 50vh;
-  margin:15px;
-  width: fit-content;
-  margin-right: auto;
-  margin-left: auto;
-	}
 
-	#title {
-    padding-bottom: 10px;;
+
+  body {
+	background-color: #f1f1f1;
+	height: 100vh;
+	margin:15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 15px;  
   }
 
-	input{
-	  display: block;
-	  margin-bottom: 30px;
-	  width: 100%;
-	  font-size: 18px;
-	  padding: 8px;
-    border: 1px solid #ccc;
-    
-	}
-	
-	
-	label {
-	  border-radius: 4px;  
-	  display: block;
-	  margin-bottom: 5px;
-	}
-	
-	#distance, #price, #consumption {
-		margin-bottom: 30px;
-	}
-	
-	button {
-	  margin-top: 10px;
-	  background-color: rgb(246, 185, 154);
-	  color: #484848;
-	  border: none;
-	  padding: 10px;
-	  cursor: pointer;
-    border-radius: 4px; 
-	}
-	
-	button:disabled {
-	  background-color:#eee6ff;
-	  cursor: default;
-	  color:#484848;
-    border-radius: 4px; 
-	}
-	
-	#calculate {
-	  margin-top: 10px;
-	  width: 100%;
-	  border-radius:4px;
-	  font-size: 18px;
-    border-radius: 4px; 
-    
-	}
-	
-	#reset {
-	  width: 100%;
-	  border-radius:4px;
-	  font-size: 18px;
-	}
-
-  #result {
-    margin-top: 20px;
-    font-size: 15px;
-    font-weight: 600;
-    color:rgb(2, 3, 8)
+  input {
+	display: block;
+	margin-bottom: 30px;
+	width: 100%;
+	font-size: 18px;
+	padding: 8px;
+	border: 1px solid #f1f1ff;
   }
+
+  label {
+	border-radius: 8px;  
+	display: block;
+	margin-bottom: 5px;
+  }
+
+  #distance, #price, #consumption {
+	margin-bottom: 20px;
+  }
+
+  button {
+	margin-top: 10px;
+	background-color: rgb(243, 181, 57);
+	color: #ffffff;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+
+  button:disabled {
+	background-color:#eee6ff;
+	cursor: default;
+	color:#000;
+	width: 100%;
+  }
+
+  #calculate {
+	margin-top: 20px;
+	margin-top: 10px;
+	width: 96%;
+	border-radius:4px;
+	font-size: 18px;
+	width: 100%;
+  }
+
+  #reset, #result {
+	margin-top: 20px;
+	width: 50%;
+	border-radius:4px;
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  } 
+
+  
