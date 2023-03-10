@@ -23,3 +23,7 @@ This app was built using the latest web development technologies:
 * CSS for the styling, 
 * JavaScript for the functionality. 
 #### The app is currently on version 1.0.0 and is open source, so feel free to contribute to its development or use it for your own projects.
+
+#### Version 1.0.2 
+###### Added a more cleaner JavaScript code and replace the loading page function with a reset button
+###### New style for the background and butttons
