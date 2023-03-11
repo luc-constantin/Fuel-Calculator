@@ -24,7 +24,7 @@ function calculate() {
   const consumption = consumptionInput.value;
   const fuel = distance / 100 * consumption;
   const cost = fuel * price;
-  resultDiv.innerHTML = `You have consumed ${fuel.toFixed(2)} liters of fuel, which cost €${cost.toFixed(2)}.`;
+  resultDiv.innerText = `You have consumed ${fuel.toFixed(2)} liters of fuel, which cost €${cost.toFixed(2)}.`;
   resetButton.style.display = "block";
 }
 
@@ -33,7 +33,7 @@ function reset() {
   document.getElementById("distance").value = "";
   document.getElementById("price").value = "";
   document.getElementById("consumption").value = "";
-  resultDiv.innerHTML = "";
+  resultDiv.innerText = "";
   resetButton.style.display = "none";
   calculateButton.disabled = true;
   calculateButton.style.backgroundColor = "";
