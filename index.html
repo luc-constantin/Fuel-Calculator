@@ -17,7 +17,7 @@
 	<input type="number" id="distance" required>
 
 	<label for="price">Price per liter (€):</label>
-	<input type="number" id="price" required>
+	<input type="number" id="price" step=".01" required>
 
 	<label for="consumption">Fuel consumption (liters/100km):</label>
 	<input type="number" id="consumption" required>
@@ -27,7 +27,7 @@
   </form>
  
   <div id="result"></div>
-  <button id="reset" style="display:none;">Reset</button>
+  <button type="button" id="reset" style="display:none;">Reset</button>
 
   <script src="script.js"></script>
 </body>
