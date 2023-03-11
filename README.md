@@ -1,5 +1,6 @@
 # Gas Price Consumption Calculator
-![Gas Price Consumption Calculator ](https://user-images.githubusercontent.com/56940002/223097721-6b2b5d42-ee57-40ba-8541-e89e317306fc.png)
+![Fuel Consumption](https://user-images.githubusercontent.com/56940002/224469837-fd19b1aa-07de-4e09-ba6e-eeb6e69080b0.png)
+
 
 ___
 ## You can use the App to:
