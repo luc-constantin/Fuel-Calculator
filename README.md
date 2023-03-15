@@ -2,7 +2,7 @@
 ![Fuel Consumption](https://user-images.githubusercontent.com/56940002/224469837-fd19b1aa-07de-4e09-ba6e-eeb6e69080b0.png)
 
 
-___
+-----------------
 ## You can use the App to:
 * Know the exact amount of gas consumption.
   * according to distance
